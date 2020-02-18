@@ -1,0 +1,12 @@
+N=int(input())
+x = [int(x) for x in input().split()]
+a=0
+b=N-1
+
+for i in range(N):
+  if(i!=N-1):
+    print(x[a]+x[b],end=' ')
+  else:
+    print(x[a]+x[b],end='')
+  a+=1
+  b-=1
