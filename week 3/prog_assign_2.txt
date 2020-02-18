@@ -1,0 +1,4 @@
+x = [int(x) for x in input().split()]
+length=len(x)
+x.sort()
+print(x[length-2],x[1],end='')
